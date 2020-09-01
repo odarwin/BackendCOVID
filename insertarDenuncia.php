@@ -1,5 +1,5 @@
 <?php
-include conexion.php;
+include "conexion.php";
 $fechaHora=$_POST['fechaHora'];
 $imagen=$_POST['imagen'];
 $tipoDenuncia=$_POST['tipoDenuncia'];
