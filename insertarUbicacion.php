@@ -1,5 +1,6 @@
 <?php
 include "conexion.php";
+
 $ciudad=$_POST['ciudad'];
 $direccion=$_POST['direccion'];
 $descripcion=$_POST['descripcion'];
