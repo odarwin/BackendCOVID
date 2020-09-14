@@ -1,7 +1,8 @@
 <?php
 // con esto leera todas las denuncias
 include "conexion.php";
-$consulta="select * from denuncias";
+
+$consulta="select * from denuncia;";
 $resultado=$conexion -> query($consulta);
 
 while($fila=$resultado -> fetch_array()){
@@ -9,5 +10,5 @@ while($fila=$resultado -> fetch_array()){
 
 }
 echo json_encode($denuncias);
-$resultado -> close
+$resultado -> close();
 ?>
